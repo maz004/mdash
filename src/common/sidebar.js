@@ -21,7 +21,7 @@ class Sidebar extends React.Component {
                 <ul className="list-unstyled ps-0">
                     <li className="mb-1">
                         <Link tag="a" className="" to="/home">
-                            <i className="fa fa-dashboard"></i> Pade d'acceuil
+                            <i className="fa fa-dashboard"></i> Page d'acceuil
                         </Link>
                     </li>
                     <li className="mb-1">
