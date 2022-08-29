@@ -24,6 +24,11 @@ class Sidebar extends React.Component {
                             <i className="fa fa-dashboard"></i> Page d'acceuil
                         </Link>
                     </li>
+                                                <li className="mb-1">
+                        <Link tag="a" className="" to="/gouvernance">
+                            <i className="fa fa-dashboard"></i>Gouvernance
+                        </Link>
+                    </li>
                     <li className="mb-1">
                         <Link tag="a" className="" to="/techdash1">
                             <i className="fa fa-dashboard"></i>Technique 1
@@ -32,11 +37,6 @@ class Sidebar extends React.Component {
                     <li className="mb-1">
                         <Link tag="a" className="" to="/techdash2">
                             <i className="fa fa-dashboard"></i>Technique 2
-                        </Link>
-                    </li>
-                    <li className="mb-1">
-                        <Link tag="a" className="" to="/gouvernance">
-                            <i className="fa fa-dashboard"></i>Gouvernance
                         </Link>
                     </li>
                     <li className="border-top my-3"></li>
